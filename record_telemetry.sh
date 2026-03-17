@@ -1,13 +1,13 @@
 #!/bin/bash
-# start_telemetry.sh
+# record_telemetry.sh
 # Starts a Telegraf profiling session for a single drone flight.
 # Each run creates a timestamped folder and updates a stable symlink
 # so the Telegraf config never needs to change between flights.
 #
 # Usage:
-#   ./start_telemetry.sh            # foreground (blocks until Ctrl+C)
-#   ./start_telemetry.sh --bg       # background daemon, logs to flight dir
-#   ./start_telemetry.sh --stop     # stop a running background session
+#   ./record_telemetry.sh            # foreground (blocks until Ctrl+C)
+#   ./record_telemetry.sh --bg       # background daemon, logs to flight dir
+#   ./record_telemetry.sh --stop     # stop a running background session
 
 set -euo pipefail
 
