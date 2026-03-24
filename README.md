@@ -1,5 +1,6 @@
 # Edge Robot Telemetry
 
+`telegraf.conf` is to profile Radxa Pro Zero 2 onboard computer for edge robot telemetry.
 The purpose of this tool is to simply record robot telemetry needed not reinventing the wheel with the focus on low-profile.
 
 ## Telegraf Setup
